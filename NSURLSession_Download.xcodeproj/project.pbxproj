@@ -14,6 +14,7 @@
 		0A97BC4B1BFC381F0088495E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A97BC4A1BFC381F0088495E /* Images.xcassets */; };
 		0A97BC4E1BFC381F0088495E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A97BC4C1BFC381F0088495E /* LaunchScreen.xib */; };
 		0A97BC5A1BFC381F0088495E /* NSURLSession_DownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97BC591BFC381F0088495E /* NSURLSession_DownloadTests.m */; };
+		0A97BC641BFC388C0088495E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A97BC631BFC388C0088495E /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0A97BC531BFC381F0088495E /* NSURLSession_DownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSession_DownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A97BC581BFC381F0088495E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A97BC591BFC381F0088495E /* NSURLSession_DownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession_DownloadTests.m; sourceTree = "<group>"; };
+		0A97BC631BFC388C0088495E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		0A97BC3C1BFC381F0088495E /* NSURLSession_Download */ = {
 			isa = PBXGroup;
 			children = (
+				0A97BC651BFC38900088495E /* image */,
 				0A97BC411BFC381F0088495E /* AppDelegate.h */,
 				0A97BC421BFC381F0088495E /* AppDelegate.m */,
 				0A97BC441BFC381F0088495E /* ViewController.h */,
@@ -117,6 +120,14 @@
 				0A97BC581BFC381F0088495E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A97BC651BFC38900088495E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0A97BC631BFC388C0088495E /* play.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A97BC491BFC381F0088495E /* Main.storyboard in Resources */,
+				0A97BC641BFC388C0088495E /* play.png in Resources */,
 				0A97BC4E1BFC381F0088495E /* LaunchScreen.xib in Resources */,
 				0A97BC4B1BFC381F0088495E /* Images.xcassets in Resources */,
 			);
